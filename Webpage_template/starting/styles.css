@@ -1,0 +1,274 @@
+/* universal styles*/
+* {box-sizing: border-box;}
+/*FONTS*/
+/*for pull quotes and titles*/
+/* latin */
+@font-face {
+    font-family: 'Bellota';
+    font-style: italic;
+    font-weight: 300;
+    src: local('Bellota Light Italic'), local('Bellota-LightItalic'), url(https://fonts.gstatic.com/s/bellota/v1/MwQxbhXl3_qEpiwAKJBjHGEvipFL.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+/* latin */
+@font-face {
+    font-family: 'Bellota';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Bellota Bold Italic'), local('Bellota-BoldItalic'), url(https://fonts.gstatic.com/s/bellota/v1/MwQxbhXl3_qEpiwAKJBjDGYvipFL.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+/* latin */
+@font-face {
+    font-family: 'Bellota';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Bellota Bold'), local('Bellota-Bold'), url(https://fonts.gstatic.com/s/bellota/v1/MwQzbhXl3_qEpiwAIC5-oGQfiA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+/*for content*/
+ /* latin */
+@font-face {
+    font-family: 'Nunito';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Nunito Italic'), local('Nunito-Italic'), url(https://fonts.gstatic.com/s/nunito/v12/XRXX3I6Li01BKofIMNaDRs4.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+/* latin */
+@font-face {
+    font-family: 'Nunito';
+    font-style: italic;
+    font-weight: 900;
+    src: local('Nunito Black Italic'), local('Nunito-BlackItalic'), url(https://fonts.gstatic.com/s/nunito/v12/XRXQ3I6Li01BKofIMN4AYdvKUT8.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+/* latin */
+@font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Nunito Regular'), local('Nunito-Regular'), url(https://fonts.gstatic.com/s/nunito/v12/XRXV3I6Li01BKofINeaB.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+/* latin */
+@font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Nunito Bold'), local('Nunito-Bold'), url(https://fonts.gstatic.com/s/nunito/v12/XRXW3I6Li01BKofAjsOUYevI.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+/* latin */
+@font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Nunito Black'), local('Nunito-Black'), url(https://fonts.gstatic.com/s/nunito/v12/XRXW3I6Li01BKofAtsGUYevI.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  } 
+}
+/*ELEMENTS*/
+html {
+    font-size: 16px;
+    font-family: "Nunito", sans-serif;
+    
+  }
+  
+body {
+    background-color: #Fffaf0;
+  }
+  h1 {
+    font-family: 'Nunito';
+    font-weight: 900;
+    color: #5D5c61 
+  }
+  
+  h2{
+      font-family: bellota;
+      font-weight: 700;
+      color: #557a95
+  }
+  p{
+      font-family: "Nunito";
+      font-weight: 400;
+  }
+/*anchors*/
+a {
+    text-decoration: none;
+    text-align: center;
+    color: #5D5c61
+    
+}
+a:hover{
+    color: #7395AE;
+}
+.active{
+    color: #7395AE;
+}
+/*dividers*/
+ hr {
+     border-top: 0.05rem solid #5D5C61;
+     opacity: 0.3;
+     padding-bottom: 0.5rem;
+ }
+  /* Header parts */
+  .header {
+    font-family: "Bellota", serif;
+    font-size: 14px;
+    line-height: 1.25;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-weight: bold;
+    color: #5D5C61;
+            
+  }
+  .main h1{
+      font-weight: 700;
+      font-size: 2.5rem;
+            
+   }
+  .main img{
+      height: 8rem;
+      float: left;
+      padding-right: 1rem;
+      width: auto;
+  }
+  .main a{
+    padding-left: 2rem;
+    font-size: 1.1rem; 
+ } 
+ 
+ /*CONTAINERS*/
+ .flex-container{
+     display: flex;
+     flex-flow: column;
+     align-content: space-between;
+     justify-content: flex-start;
+     align-items: center;
+ }
+ .item {
+    border: 1px solid #5D5C61;
+    padding: 1rem;
+    margin: 10px auto;
+    width: 100%;
+    position: center;
+    }
+
+    .color-containers{
+        background-image: url("../Pictures/Colors_template.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: 0.5;
+        margin: auto;
+        
+      }
+
+      /*COLOR PANEL*/
+  .color-panel{
+      display: inline-block;
+      text-align: center;
+      margin: 20px auto;
+      min-height: 100px;
+      border-radius: 50%;
+      font-size: 0.75rem;
+      padding: 1rem;
+      }
+    .deep-brown{
+        background-color: #5d5c61;
+        color:floralwhite
+        }
+    .sandy-brown{
+         background-color: #B1A296;
+         color:black  
+        }
+    .deep-blue{
+        background-color:#557a95;
+        color:floralwhite
+        }
+    
+    .clear-blue{
+        background-color:#7395AE;
+        color:black  
+    }
+    
+    .picture-panel{
+        background-image: url("../Pictures/Colors_template.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: floralwhite;
+        display: inline-block;
+        text-align: center;
+        margin: 20px auto;
+        min-height: 10rem;
+        max-width: 20rem;
+        font-size: 0.75rem;
+        font-weight: bold;
+        padding: 1rem;
+        margin: 1rem;
+             
+      }
+      /*FONT PANEL*/
+    .font-panel{
+        width: 45%;
+        display: inline-block;
+        padding-left: 2rem;
+      }
+       
+    .font-label{
+        font-size: 1.5rem;
+        text-decoration: underline;
+        
+      }
+      
+    .regular {
+        font-style: normal;
+      }
+      
+      .italic {
+        font-style: italic;
+      }
+
+      .light {
+        font-style: italic;
+        font-weight: 300;
+      }
+      
+      .italic-700 {
+        font-style: italic;
+        font-weight: 700;
+      }
+
+      
+      .bold {
+        font-weight: 700;
+      }
+      .super-bold {
+        font-weight: 900;
+      }
+      
+      .nunito {
+        font-family: 'Nunito', sans-serif;
+      }
+      
+      .bellota {
+        font-family: 'Bellota', sans-serif;
+      }
+         
+    /*TEXT PANEL*/
+    .text-panel{
+        width: 30%;
+        display: inline-block;
+        padding-left: 1rem;
+      }
+    
+/*IMAGES*/
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
